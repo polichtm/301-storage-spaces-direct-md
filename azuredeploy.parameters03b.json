@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "namePrefix": {
+      "value": "i20"
+    },
+    "vmSize": {
+      "value": "Standard_D4s_v3"
+    },
+    "vmCount": {
+      "value": 2
+    },
+    "vmDiskSize": {
+      "value": 128
+    },
+    "vmDiskCount": {
+      "value": 3
+    },
+    "enableAcceleratedNetworking": {
+      "value": true
+    },
+    "imageSku": {
+      "value": "2022-datacenter-azure-edition-core"
+    },
+    "adminUsername": {
+      "value": "Student"
+    },
+    "adminPassword": {
+      "value": "Pa55w.rd1234"
+    },
+    "existingDomainName": {
+      "value": "adatum.com"
+    },
+    "existingVirtualNetworkName": {
+      "value": "adVNet"
+    },
+    "existingVirtualNetworkRGName": {
+      "value": "az12003b-ad-RG"
+    },    
+    "existingSubnetName": {
+      "value": "s2dSubnet"
+    },
+    "sofsName": {
+      "value": "sapglobalhost"
+    },
+    },
+    "shareName": {
+      "value": "sapmnt"
+    },
+    "shareName": {
+      "value": "sapmnt"
+    },
+    "scheduledUpdateDay": {
+      "value": "Sunday"
+    },
+    "scheduledUpdateTime": {
+      "value": "3:00AM"
+    },
+    "realtimeAntimalwareEnabled": {
+      "value": "false"
+    },
+    "scheduledAntimalwareEnabled": {
+      "value": "false"
+    },
+    "scheduledAntimalwareTime": {
+      "value": "120"
+    },
+    "_artifactsLocation": {
+       "value": "https://raw.githubusercontent.com/polichtm/301-storage-spaces-direct-md/master/"
+    }
+  }
+}
