@@ -19,7 +19,7 @@ param enableAcceleratedNetworking bool = true
   '2022-datacenter-core'
   '2022-datacenter-azure-edition-core'
 ])
-param imageSku string = '2022-datacenter-azure-edition-core'
+param imageSku string = '2016-Datacenter-Server-Core'
 
 @description('Number of S2D VMs to be created in cluster (Min=2, Max=3)')
 @minValue(2)

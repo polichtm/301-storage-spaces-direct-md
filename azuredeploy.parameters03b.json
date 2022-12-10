@@ -21,7 +21,7 @@
       "value": true
     },
     "imageSku": {
-      "value": "2022-datacenter-azure-edition-core"
+      "value": "2016-Datacenter-Server-Core"
     },
     "adminUsername": {
       "value": "Student"

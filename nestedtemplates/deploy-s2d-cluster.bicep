@@ -120,7 +120,7 @@ resource vmNamePrefix_nic 'Microsoft.Network/networkInterfaces@2016-09-01' = [fo
 module vmNamePrefix_newVM './newVM.bicep' = [for i in range(0, vmCount): {
   name: '${vmNamePrefix}${i}-newVM'
   params: {
-    vmName: '${vmNamePrefix}${i})'
+    vmName: '${vmNamePrefix}${i}'
     vmAvailabilitySetName: vmAvailabilitySetName
     vmSize: vmSize
     vmDiskCount: vmDiskCount
